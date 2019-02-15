@@ -27,6 +27,8 @@ Finally, I learned the method .finally. It is used when you want to run somethin
 
 A little update: I'm currently on part 201/300 in the course, which is (obviously) approximately two thirds, but (satisfyingly) exactly 67%.
 
+![dag40](./screenshots/40.png?raw=true "dag40")
+
 ***
 #### Dag 39/100: 1:00 //async functions, try/catch
 

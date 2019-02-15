@@ -1,4 +1,7 @@
-![dagx](./screenshots/x.png?raw=true "dagx")
+**************************************************************
+				Emils 100 days of code
+Här skriver jag om min framgångar och motgångar i att lära mig webbutveckling. Jag följer en kurs som heter The Complete Web Developer in 2019: Zero to Mastery från Udemy. Idén är att jag ska klara av att programmera 100 dagar i sträck. Vi får se hur det går.
+**************************************************************
 
 Dag 39/100: 1:00 //async functions, try/catch
 I ES8 introducerades en async await-funktion. Det har samma tillämpning som Promises, och är egentligen bara syntaktiskt socker. Istället för att använda kedjade .then, kan man istället använda keywordet 'await'. För att fånga errors kan man använda "try" för blocket man vill exekvera, och därefter "catch" för att fånga upp eventuella errors. "catch" har ett inargument också, error.

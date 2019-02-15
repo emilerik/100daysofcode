@@ -73,12 +73,16 @@ Dag 33/100: 3:00 // resa (journey)
 
 Påbörjade ett tappert försök av en egen journey-kopia med React. Ett bra sätt att repetera allting, men jag kom inte riktigt hela vägen. Två saker fastnade jag på - hur ska man göra så att posts hamnar nedanför varandra och inte bredvid? Och hur ska man göra så att man kan lägga till en post själv? Jag lärde mig också om mappstruktur, men en oklarhet som kvarstår är var man ska lägga styles?
 
+resa: https://github.com/emilerik/resa
+
 ![dag33](./screenshots/33.png?raw=true "dag33")
 
 ***
 Dag 32/100: 1:30 // Scroll, componentDidMount, json
 
 Idag la jag till en Scroll-funktion, så att korten har en div som man kan scrolla i, så att titeln och sökrutan finns kvar. Påminner om att sätta header till fix, men skiljer sig i det att allt annat på sidan också är fixt, och korten kan scrollas. Istället för att lagra robots lokalt hämtar jag nu istället hem dem från en sida, och json används för att "fetcha". componentDidMount är en inbyggd React-metod som fungerar som så att den körs så fort en komponent har "mountats". Till exempel, efter att App har renderats är robots bara en tom array, men då körs componentDidMount direkt, och hämtar hem infon mha json från sidan, sen matas de in i CardList osv. Funderar nu på att bygga en egen Journey!
+
+robofriends: https://github.com/emilerik/robofriends
 
 ![dag32](./screenshots/32.png?raw=true "dag32")
 

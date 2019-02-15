@@ -1,5 +1,5 @@
 **************************************************************
-				Emils 100 days of code
+				###Emils 100 days of code
 Här skriver jag om min framgångar och motgångar i att lära mig webbutveckling. Jag följer en kurs som heter The Complete Web Developer in 2019: Zero to Mastery från Udemy. Idén är att jag ska klara av att programmera 100 dagar i sträck. Vi får se hur det går.
 **************************************************************
 
@@ -8,20 +8,22 @@ I ES8 introducerades en async await-funktion. Det har samma tillämpning som Pro
 
 Syntax för async-funktionen är
 
-async function fetchUsers() {
+```async function fetchUsers() {
 await ...
-}
+}```
 
 ![dag39](./screenshots/39.png?raw=true "dag39")
+
+**************************************************************
 
 Dag 38/100: 1:30 //forts Promise
 Promise är ett asynchronous fenomen. Det betyder att JS inte behöver blockas under tiden det väntar på ett Promise, utan kan göra andra saker. Ett promise tar in två argument - resolve och reject. Ett Promise kan antingen vara fulfilled, rejected eller pending.
 
 Man kan använda .all för att hämta alla Promises. T.ex.
-Promise.all([promise1, promise2])
+```Promise.all([promise1, promise2])
 .then(values => {
 console.log(values);
-})
+})```
 Med metoden .all inväntas det tills att alla promises är färdiga.
 
 Promise.resolve(value) -metoden returnerar ett objekt som redan är resolvat, och som resolvar med värdet value!
@@ -36,9 +38,9 @@ Problem: hela sidan reloadades varje gång man klickade någonstans på sidan, v
 Lösning: AJAX. Gör så att man kan kommunicera med servern utan att reloada allting. Exempel är Googles searchbar som uppdateras med information från servern kontinuerligt.
 
 fetch är en metod till window, och används för att requesta data från en sida. fetch('http://nånurl.com') returnerar en "Promise". Det är ett löfte att leverera något så fort sidan har laddat. Man kan då använda .then som tar emot svaret, kallat response, använder .json på det, och till sist .then igen för att använda datan. Man använder .then på Promise, och eftersom första .then returnerar ett Promise använder man det två gånger. Exempel:
-fetch('https://jsonplaceholder.typicode.com/users')
+```fetch('https://jsonplaceholder.typicode.com/users')
 .then(response => response.json())
-.then(users => this.setState({ robots: users }));
+.then(users => this.setState({ robots: users }));```
 
 Dag 35/100: 1:00 // HTTPS, JSON/XML
 Webbläsaren är en HTTP-klient. Den skickar förfrågan till servers, till exempel get/post/put/delete. HTTPS används för att göra säkra överföringar. Då krypteras informationen innan den skickas mellan webbläsaren och servern.
@@ -152,10 +154,10 @@ Closures innebär att en function som exekveras skapar en lokal miljö med varia
 Currying innebär en funktion som ska ta ett gäng argument, men som består av ett gäng funktioner, som alla tar varsitt argument.
 En compose är helt enkelt en sammansatt funktion, f(g(x)).
 Side effect: när en funktion påverkar "the outside world". Exempel
-let a = 1;
+```let a = 1;
 const b = function() {
 	a = 1; //side effect
-}
+}```
 Målet: en funktion har inga side effects, och returnar alltid något => DETERMINISTISK
 
 Dag 15/100: 4:00 // jQuery, DOM, advanced JavaScript
@@ -182,13 +184,13 @@ Grabbing elements, adding/removing classes
 
 Dag 12/100: 1:00 // control flow, declarations
 Ganska tråkigt och långsamt. Förstår redan koncepten sedan tidigare. var och conditionals, alerts, if, else, Javascript i HTML. Man lägger js sist i HTML-fil, eftersom man vill att HTML och CSS ska laddas först. Exempel på if:
-if (name === "Emil") {
+```if (name === "Emil") {
 alert("Yes, this is you.")
 } else if (name === "Robert") {
 alert("Who dat?")
 } else {
 alert("Hello?")
-}
+}```
 
 Console.log - ett sätt att skicka meddelanden i konsolloggen.
 console.log("Hello!"); Lärde mig också funktioner:
@@ -202,11 +204,11 @@ Kollade på developer fundamentals. Han gick igenom internetnärvaro - vikten av
 
 Dag 10/100: 1:10 // Prettify
 "Prettify": Snyggade till hemsidan. Bytte till färger, tog bort den förinställda skuggeffekten och bytte pointer till vanlig. Lade till rotationseffekt och skugga på grid-boxarna. Gjorde så att headern blev fix med hjälp av en sticky-class:
-.sticky {
+```.sticky {
 position: fixed;
 top: 0;
 width: 100%;
-}
+}```
 
 ![dag10](./screenshots/10.png?raw=true "dag10")
 

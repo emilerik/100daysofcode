@@ -3,6 +3,23 @@ Här skriver jag om min framgångar och motgångar i att lära mig webbutvecklin
 ***
 
 ***
+#### Dag 41/100: 2:30 // intro backend, APIs
+Role of the backend developer: to manage and develop the server-side of an application. Backend basically consists of the server and the database. The server communicates, and the database stores. Examples are: to handle user requests, to store and retrieve data, and deliver the HTML/CSS/JS-files to the user browser. A classic model is LAMP - Linux (OS), Apache (HTTP), MySQL (relational DB) and PHP (serverside code), but there are more modern models such as MEAN (MongoDB, ExpressJS, AngularJS, NodeJS) which is powered by JavaScript. Big applications, such as Facebook or Google use load balancers and multiple servers and databases to handle huge amounts of traffic.
+
+API stands for Application Programming Interface. In short, APIs are a way for websites and applications to communicate and share information with eachother. Say I wanna buy sneakers, but I'm not sure which stores sell sneakers. So I go to Pricerunner. They don't have any sneakers, but they know lots of stores and companies who do. So when I search for size 44 Converse, Pricerunner interacts with these stores' APIs to fetch my request of this particular footwear. Maybe I find my pair, maybe I'm redirected to converse.com and maybe Pricerunner gets a little profit. Everybody's happy.
+
+In JavaScript, the "fetch" method is a way to communicate with these APIs. A standard format for API is JSON (or XML), because both servers and JS can understand it. Example: we want to get the user data for some GitHub user and do something with it. GitHub has its own API, and we request for example https://api.github.com/users/emilerik with fetch, we get a JSON object, and we can parse it and then play around with it. In code:
+```js
+const getEmil = async function() {
+	const resp = await fetch('https://api.github.com/users/emilerik');
+	const emil = await resp.json();
+	console.log(emil.login + ' is a web developer on GitHub.');
+	console.log('You can check him out at ' + emil.html_url);
+}
+getEmil(); // prints 'emilerik is a web developer on GitHub' and 'You can check him out at https://github.com/emilerik'
+```
+To summarize: a server from a websites/company *provides* an API, which allows us to manipulate *or* present data they provide *or* allow us to use a service they provide.
+***
 #### Dag 40/100: 3:00 //ES9, object spread operator + journal deployment!
 Today, I deployed my journal to GitHub. I spent some time fixing the styling in markdown and figuring out how to add images. I thought it turned out alright! I also decided to start journalling (blogging?) in English, since it might be a bit more established in the industry than Swedish, to put it humbly.
 

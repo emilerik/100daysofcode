@@ -7,7 +7,7 @@ Här skriver jag om min framgångar och motgångar i att lära mig webbutvecklin
 Today, I deployed my journal to GitHub. I spent some time fixing the styling in markdown and figuring out how to add images. I thought it turned out alright! I also decided to start journalling (blogging?) in English, since it might be a bit more established in the industry than Swedish, to put it humbly.
 
 Todays lesson: ES9 and the object spread operator. The spread syntax ... can be used when an iterable will be expanded in a place where zero or more arguments are expected, for example
-```
+```js
 const myArray = [1, 5, 7];
 const sum = (x, y, z) => {
 	console.log(x + y + z);
@@ -15,7 +15,7 @@ const sum = (x, y, z) => {
 sum(...myArray); // 13
 ```
 The object spread operator is a special case - an object expression is expanded where key-value pairs are expected. (This is new in ECMAScript2018). Example:
-```
+```js
 const obj1 = { user1: 'Tom', pet: 'Drake' };
 const copyOfObj1 = { ...obj1 }
 // copyOfObj1 = { user1: 'Tom', pet: 'Drake' };
@@ -35,7 +35,7 @@ A little update: I'm currently on part 201/300 in the course, which is (obviousl
 I ES8 introducerades en async await-funktion. Det har samma tillämpning som Promises, och är egentligen bara syntaktiskt socker. Istället för att använda kedjade .then, kan man istället använda keywordet 'await'. För att fånga errors kan man använda "try" för blocket man vill exekvera, och därefter "catch" för att fånga upp eventuella errors. "catch" har ett inargument också, error.
 
 Syntax för async-funktionen är
-```
+```js
 async function fetchUsers() {
 await ...
 }
@@ -49,7 +49,7 @@ await ...
 Promise är ett asynchronous fenomen. Det betyder att JS inte behöver blockas under tiden det väntar på ett Promise, utan kan göra andra saker. Ett promise tar in två argument - resolve och reject. Ett Promise kan antingen vara fulfilled, rejected eller pending.
 
 Man kan använda .all för att hämta alla Promises. T.ex.
-```
+```js
 Promise.all([promise1, promise2])
 .then(values => {
 console.log(values);
@@ -73,7 +73,7 @@ Problem: hela sidan reloadades varje gång man klickade någonstans på sidan, v
 Lösning: AJAX. Gör så att man kan kommunicera med servern utan att reloada allting. Exempel är Googles searchbar som uppdateras med information från servern kontinuerligt.
 
 fetch är en metod till window, och används för att requesta data från en sida. fetch('http://nånurl.com') returnerar en "Promise". Det är ett löfte att leverera något så fort sidan har laddat. Man kan då använda .then som tar emot svaret, kallat response, använder .json på det, och till sist .then igen för att använda datan. Man använder .then på Promise, och eftersom första .then returnerar ett Promise använder man det två gånger. Exempel:
-```
+```js
 fetch('https://jsonplaceholder.typicode.com/users')
 .then(response => response.json())
 .then(users => this.setState({ robots: users }));
@@ -233,7 +233,7 @@ Closures innebär att en function som exekveras skapar en lokal miljö med varia
 Currying innebär en funktion som ska ta ett gäng argument, men som består av ett gäng funktioner, som alla tar varsitt argument.
 En compose är helt enkelt en sammansatt funktion, f(g(x)).
 Side effect: när en funktion påverkar "the outside world". Exempel
-```
+```js
 let a = 1;
 const b = function() {
 	a = 1; //side effect
@@ -273,7 +273,7 @@ Grabbing elements, adding/removing classes
 #### Dag 12/100: 1:00 // control flow, declarations
 
 Ganska tråkigt och långsamt. Förstår redan koncepten sedan tidigare. var och conditionals, alerts, if, else, Javascript i HTML. Man lägger js sist i HTML-fil, eftersom man vill att HTML och CSS ska laddas först. Exempel på if:
-```
+```js
 if (name === "Emil") {
 alert("Yes, this is you.")
 } else if (name === "Robert") {
@@ -299,7 +299,7 @@ Kollade på developer fundamentals. Han gick igenom internetnärvaro - vikten av
 #### Dag 10/100: 1:10 // Prettify
 
 "Prettify": Snyggade till hemsidan. Bytte till färger, tog bort den förinställda skuggeffekten och bytte pointer till vanlig. Lade till rotationseffekt och skugga på grid-boxarna. Gjorde så att headern blev fix med hjälp av en sticky-class:
-```
+```js
 .sticky {
 position: fixed;
 top: 0;

@@ -8,7 +8,7 @@ Today, I got sidetracked. I didn't follow the course curriculum, but instead stu
 
 It was also nice to see that they used flexbox for handling layout. Earlier, I didn't quite understand how styling and layout played into React (does it have its own layout/styling system?), but as I now see it, you basically treat components the way you would HTML elements. What confused me in the beginning, I think, was tachyons, which I thought was the standard way of styling.
 
-I heard that React and React Native have some differences, and to me, these seem minor. <View> seems to be the equivalent of <div>. On top of regular React, a bunch of ways of handling smartphone interaction like pinching and swiping are added, but these seem like examples of differences in features rather than concepts (in terms of React vs React Native). But then again, there's probably more under the hood and I might be wrong. 
+I heard that React and React Native have some differences, and to me, these seem minor. \<View> seems to be the equivalent of \<div>. On top of regular React, a bunch of ways of handling smartphone interaction like pinching and swiping are added, but these seem like examples of differences in features rather than concepts (in terms of React vs React Native). But then again, there's probably more under the hood and I might be wrong. 
 
 ***
 #### Day 41/100: 2:30 // intro backend, APIs

@@ -3,7 +3,15 @@ Här skriver jag om min framgångar och motgångar i att lära mig webbutvecklin
 ***
 
 ***
-#### Dag 41/100: 2:30 // intro backend, APIs
+#### Day 42/100: 2:00 // sidetracked: React Native
+Today, I got sidetracked. I didn't follow the course curriculum, but instead stumbled upon the React Native tutorial at https://facebook.github.io/react-native/docs/tutorial. It's fascinating how powerful React seems to be, as the model of components can applied to building both web apps and smartphone apps. I always saw these as separate concerns, but it's natural that they shouldn't have to be. Another great thing is that it gave me another perspective in learning React, so my earlier knowledge really set in. I understand state and props much better now.
+
+It was also nice to see that they used flexbox for handling layout. Earlier, I didn't quite understand how styling and layout played into React (does it have its own layout/styling system?), but as I now see it, you basically treat components the way you would HTML elements. What confused me in the beginning, I think, was tachyons, which I thought was the standard way of styling.
+
+I heard that React and React Native have some differences, and to me, these seem minor. <View> seems to be the equivalent of <div>. On top of regular React, a bunch of ways of handling smartphone interaction like pinching and swiping are added, but these seem like examples of differences in features rather than concepts (in terms of React vs React Native). But then again, there's probably more under the hood and I might be wrong. 
+
+***
+#### Day 41/100: 2:30 // intro backend, APIs
 Role of the backend developer: to manage and develop the server-side of an application. Backend basically consists of the server and the database. The server communicates, and the database stores. Examples are: to handle user requests, to store and retrieve data, and deliver the HTML/CSS/JS-files to the user browser. A classic model is LAMP - Linux (OS), Apache (HTTP), MySQL (relational DB) and PHP (serverside code), but there are more modern models such as MEAN (MongoDB, ExpressJS, AngularJS, NodeJS) which is powered by JavaScript. Big applications, such as Facebook or Google use load balancers and multiple servers and databases to handle huge amounts of traffic.
 
 API stands for Application Programming Interface. In short, APIs are a way for websites and applications to communicate and share information with eachother. Say I wanna buy sneakers, but I'm not sure which stores sell sneakers. So I go to Pricerunner. They don't have any sneakers, but they know lots of stores and companies who do. So when I search for size 44 Converse, Pricerunner interacts with these stores' APIs to fetch my request of this particular footwear. Maybe I find my pair, maybe I'm redirected to converse.com and maybe Pricerunner gets a little profit. Everybody's happy.
@@ -20,7 +28,7 @@ getEmil(); // prints 'emilerik is a web developer on GitHub' and 'You can check 
 ```
 To summarize: a server from a websites/company *provides* an API, which allows us to manipulate *or* present data they provide *or* allow us to use a service they provide.
 ***
-#### Dag 40/100: 3:00 //ES9, object spread operator + journal deployment!
+#### Day 40/100: 3:00 //ES9, object spread operator + journal deployment!
 Today, I deployed my journal to GitHub. I spent some time fixing the styling in markdown and figuring out how to add images. I thought it turned out alright! I also decided to start journalling (blogging?) in English, since it might be a bit more established in the industry than Swedish, to put it humbly.
 
 Todays lesson: ES9 and the object spread operator. The spread syntax ... can be used when an iterable will be expanded in a place where zero or more arguments are expected, for example

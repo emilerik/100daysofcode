@@ -1,6 +1,12 @@
 ## Emils #100DaysOfCode
 Här skriver jag om min framgångar och motgångar i att lära mig webbutveckling. Jag följer en kurs som heter The Complete Web Developer in 2019: Zero to Mastery från Udemy. Idén är att jag ska klara av att programmera 100 dagar i sträck. Vi får se hur det går.
+
+Here, I write of my successes and failures in learning web development. I'm taking a course called The Complete Web Developer in 2019: Zero to Mastery from Udemy. The idea is that I'm going to code for 100 days in a row. We'll see how it goes. The first 39 days of the journal is in Swedish.
 ***
+
+***
+#### Day 43/100: 2:00 // APIs, star wars foxes
+After the lessons in APIs, it was time for an exercise. The exercise was to build any one-page app using fetch and Star Wars API, http://swapi.co. I decided to make something similar to the robofriends app I built earlier. So the idea is to build an app in React with Card components, displaying each Star Wars character, and some information about them. I'll get the data from swapi. Also, I wanted some pictures with these cards, so I went with a random fox image generator API. We'll see how it turns out. I struggled for a while to figure out how to do the props and states right, but I finally got something to work.
 
 ***
 #### Day 42/100: 2:00 // sidetracked: React Native

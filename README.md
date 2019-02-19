@@ -5,6 +5,16 @@ Here, I write of my successes and failures in learning web development. I'm taki
 ***
 
 ***
+#### Day 44/100: 1:30 // star wars foxes, continued
+Today, I continued on the 'star wars foxes'-app. I think I came a long way. I managed to loop through several objects from the star wars API and render them in the Card component. Unfortunately, I didn't manage to match it with the random foxes API as I wanted - the error I got was
+```js
+Access to fetch at 'https://randomfox.ca/floof/' from origin 'chrome-extension://laookkfknpbbblfpciffpaejjkokdgca' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource. If an opaque response serves your needs, set the request's mode to 'no-cors' to fetch the resource with CORS disabled.
+```
+I got it once before as well, and it seems to be complaining about the fact that it tries to fetch something that isn't on the same domain. Which is weird, because that's what I do with the swapi as well...
+
+Anyway, I managed to solve by sort of ugly-hacking it, (I still thought it looks pretty good). Now, I give the source directly to the img-tag.
+
+***
 #### Day 43/100: 2:00 // APIs, star wars foxes
 After the lessons in APIs, it was time for an exercise. The exercise was to build any one-page app using fetch and Star Wars API, http://swapi.co. I decided to make something similar to the robofriends app I built earlier. So the idea is to build an app in React with Card components, displaying each Star Wars character, and some information about them. I'll get the data from swapi. Also, I wanted some pictures with these cards, so I went with a random fox image generator API. We'll see how it turns out. I struggled for a while to figure out how to do the props and states right, but I finally got something to work.
 

@@ -5,6 +5,10 @@ Here, I write of my successes and failures in learning web development. I'm taki
 ***
 
 ***
+#### Day 45/100: 1:20 // face recognition app
+I started working on a big project in the course - the face recognition app. It's a website where you can log in, and then paste a URL with an image - it then finds faces on the image and marks them with rectangles. So far, I've basically just built some of the basic components, and a background. Tomorrow, I will hopefully finish the components so I can implement the face detection API.
+
+***
 #### Day 44/100: 1:30 // star wars foxes, continued
 Today, I continued on the 'star wars foxes'-app. I think I came a long way. I managed to loop through several objects from the star wars API and render them in the Card component. Unfortunately, I didn't manage to match it with the random foxes API as I wanted - the error I got was
 ```js

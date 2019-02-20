@@ -16,7 +16,23 @@ Access to fetch at 'https://randomfox.ca/floof/' from origin 'chrome-extension:/
 ```
 I got it once before as well, and it seems to be complaining about the fact that it tries to fetch something that isn't on the same domain. Which is weird, because that's what I do with the swapi as well...
 
-Anyway, I managed to solve by sort of ugly-hacking it, (I still thought it looks pretty good). Now, I give the source directly to the img-tag.
+Anyway, I managed to solve by sort of ugly-hacking it, (I still thought it looks pretty good). Now, I give the source directly to the img-tag instead, so I don't use the API for getting the foxes. It was also the first time I used flexbox with React, with FlexView! It's a built in component in React, which you use to wrap whatever content you want to display with flex. In this case, it replaced the div. Here is the "ugly hack" with the url, and the FlexView!
+```js
+<FlexView wrap row> {
+	characters.map((char, i) => {
+		return (
+			<Card
+			key = {i}
+			name = {char.name}
+			height = {char.height}
+			hair_color = {char.hair_color}
+			img ={'https://randomfox.ca/images/' + (i+1) + '.jpg'}
+			/>
+		)
+	})
+}
+</FlexView>
+```
 
 Here comes a pic of its current look. Not the prettiest, but to be fair, the focus here is on APIs.
 

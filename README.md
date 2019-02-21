@@ -5,6 +5,12 @@ Here, I write of my successes and failures in learning web development. I'm taki
 ***
 
 ***
+#### Day 46/100: 2:30 // assembly!
+Today, I gave web dev a break, and hacked away at some good old fashioned assembly code! We're programming for a computer engineering course in a low level language, handling registers and storing data and instructions in memory manually. Today, we developed some subroutines used to handling interrupts - initially, we had a loop that printed a string, but then we added two (physical) CPIO buttons, which had higher priority, so the program exits the loop whenever one of those are clicked, to print another string. After clicking the buttons, we paused the program to look at the stack, and tried to analyze step by step what the program had put on the stack since the interrupts.
+
+![dag46](./screenshots/46.png?raw=true "dag46")
+
+***
 #### Day 45/100: 1:20 // face recognition app
 I started working on a big project in the course - the face recognition app. It's a website where you can log in, and then paste a URL with an image - it then finds faces on the image and marks them with rectangles. So far, I've basically just built some of the basic components, and a background. Tomorrow, I will hopefully finish the components so I can implement the face detection API.
 

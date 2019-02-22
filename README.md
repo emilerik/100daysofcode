@@ -6,7 +6,11 @@ Here, I write of my successes and failures in learning web development. I'm taki
 
 ***
 #### Day 47/100: 2:30 // 
-Did some more assembly coding today. Mostly debugging and testing, and trying to step through our interrupt program to figure out what adresses and register were placed on the stack and why. Continued the face recognition app as well, this time building some more components.
+Did some more assembly coding today. Mostly debugging and testing, and trying to step through our interrupt program to figure out what adresses and register were placed on the stack and why. 
+
+Continued the face recognition app as well, this time building some more components. I more or less built all the components for the view, but it doesn't look great yet. I'll add an image.
+
+![dag47](./screenshots/47.png?raw=true "dag47")
 
 ***
 #### Day 46/100: 2:30 // assembly!

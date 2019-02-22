@@ -5,6 +5,14 @@ Here, I write of my successes and failures in learning web development. I'm taki
 ***
 
 ***
+#### Day 47/100: 2:30 // 
+Did some more assembly coding today. Mostly debugging and testing, and trying to step through our interrupt program to figure out what adresses and register were placed on the stack and why. 
+
+Continued the face recognition app as well, this time building some more components. I more or less built all the components for the view, but it doesn't look great yet. I'll add an image.
+
+![dag47](./screenshots/47.png?raw=true "dag47")
+
+***
 #### Day 46/100: 2:30 // assembly!
 Today, I gave web dev a break, and hacked away at some good old fashioned assembly code! We're programming for a computer engineering course in a low level language, handling registers and storing data and instructions in memory manually. Today, we developed some subroutines used to handling interrupts - initially, we had a loop that printed a string, but then we added two (physical) CPIO buttons, which had higher priority, so the program exits the loop whenever one of those are clicked, to print another string. After clicking the buttons, we paused the program to look at the stack, and tried to analyze step by step what the program had put on the stack since the interrupts.
 

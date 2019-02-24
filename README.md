@@ -5,7 +5,13 @@ Here, I write of my successes and failures in learning web development. I'm taki
 ***
 
 ***
-#### Day 47/100: 2:30 // 
+#### Day 48/100: 2:00 // clarifai API
+Today was pretty exciting! I continued on the face recognition app. I used free clarifai APIs to predict some parameters in images from a URL - color at first. I used the Clarifai color model on a URL which was entered by the user, and console logged the result. It returned an array with the result, which basically just predicted the three top colors of the picture and their probability. Worked great. At the end, I tried the face recognition model instead, which is what I'll be using later as well, and it returned boundaries for what it predicts is the face.
+
+All that remains now is to implement a way of drawing a box around the predicted face(s) of the image.
+
+***
+#### Day 47/100: 2:30 // assembly, face recognition app
 Did some more assembly coding today. Mostly debugging and testing, and trying to step through our interrupt program to figure out what adresses and register were placed on the stack and why. 
 
 Continued the face recognition app as well, this time building some more components. I more or less built all the components for the view, but it doesn't look great yet. I'll add an image.

@@ -5,6 +5,16 @@ Here, I write of my successes and failures in learning web development. I'm taki
 ***
 
 ***
+#### Day 49/100: 1:30 // face recognition working!
+I got the face recognition to work! The process went like this: get the detected face position with help of the clarifai API, and save these parameters as the 'box'-object with attributes leftCol, topRow, rightCol, bottomRow. Send this object to the FaceRecognition component, which then renders the box with the help of CSS. Excited to implement some backend soon.
+
+Project: https://github.com/emilerik/face-recognition-brain
+
+Tomorrow I reach halfway to 100. Arnold approves!
+
+![dag49](./screenshots/49.png?raw=true "dag49")
+
+***
 #### Day 48/100: 2:00 // clarifai API
 Today was pretty exciting! I continued on the face recognition app. I used free clarifai APIs to predict some parameters in images from a URL - color at first. I used the Clarifai color model on a URL which was entered by the user, and console logged the result. It returned an array with the result, which basically just predicted the three top colors of the picture and their probability. Worked great. At the end, I tried the face recognition model instead, which is what I'll be using later as well, and it returned boundaries for what it predicts is the face.
 

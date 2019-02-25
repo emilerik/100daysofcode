@@ -8,8 +8,6 @@ Here, I write of my successes and failures in learning web development. I'm taki
 #### Day 49/100: 1:30 // face recognition working!
 I got the face recognition to work! The process went like this: get the detected face position with help of the clarifai API, and save these parameters as the 'box'-object with attributes leftCol, topRow, rightCol, bottomRow. Send this object to the FaceRecognition component, which then renders the box with the help of CSS. Excited to implement some backend soon.
 
-Project: https://github.com/emilerik/face-recognition-brain
-
 Tomorrow I reach halfway to 100. Arnold approves!
 
 ![dag49](./screenshots/49.png?raw=true "dag49")

@@ -5,6 +5,10 @@ Here, I write of my successes and failures in learning web development. I'm taki
 ***
 
 ***
+#### Day 50/100: 1:00 // Sign in, start
+Short day - worked on the sign in functionality. Designed a sign in form with the help of tachyons, and then added a state named route, used to identify if the user is signed in or not. Got it to display the sign in form only if user was signed out.
+
+***
 #### Day 49/100: 1:30 // face recognition working!
 I got the face recognition to work! The process went like this: get the detected face position with help of the clarifai API, and save these parameters as the 'box'-object with attributes leftCol, topRow, rightCol, bottomRow. Send this object to the FaceRecognition component, which then renders the box with the help of CSS. Excited to implement some backend soon.
 

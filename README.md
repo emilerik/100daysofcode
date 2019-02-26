@@ -12,7 +12,7 @@ Also got started on node and back-end - did some practicing writing code in a sc
 
 For some reason, I got a weird bug when using the face detection function after implementing sign in, so now it's not working... Will have to look at it tomorrow.
 
-```js
+```
 TypeError: Cannot read property 'language' of undefined
 ```
 

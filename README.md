@@ -5,6 +5,20 @@ Here, I write of my successes and failures in learning web development. I'm taki
 ***
 
 ***
+#### Day 51/100: 2:00 // sign in + node
+Today, I worked some more on the signing in functionality. I kept track of the where the user was at on the page, with `this.state.route` and could use it the determine whether to render the "sign in"-form, the "register"-form or the "detect face"-view. So far, the user can sign in by just clicking the "Sign in"-button, because I haven't added the back-end yet. I think it's looking pretty good though!
+
+Also got started on node and back-end - did some practicing writing code in a script.js-file and then running it with node in the terminal. Very cool!
+
+For some reason, I got a weird bug when using the face detection function after implementing sign in, so now it's not working... Will have to look at it tomorrow.
+
+```js
+TypeError: Cannot read property 'language' of undefined
+```
+
+![dag51](./screenshots/51.png?raw=true "dag51")
+
+***
 #### Day 50/100: 1:00 // Sign in, start
 Short day - worked on the sign in functionality. Designed a sign in form with the help of tachyons, and then added a state named route, used to identify if the user is signed in or not. Got it to display the sign in form only if user was signed out.
 

@@ -5,10 +5,20 @@ Here, I write of my successes and failures in learning web development. I'm taki
 ***
 
 ***
+#### Day 52/100: 2:10 // intro Express.js
+Today, I got started on back-end! Created a server file, and then installed nodemon, which was used to watch file change and restart server. Started by doing the old fashioned way of `const http = require('http');` and then created a server that way, but then installed Express.js and started playing around. Learned about how to use the different methods like .use, .get, .post et cetera. Couldn't do much with .post though, so I installed bodyParser to be able to parse whatever the user posted.
+
+To have a nice way of doing get, post, put and so on, I installed Postman, which is a desktop application used which can do all these things and present in a nice view. In short, a way of testing your serving before deploying it.
+
+Excited to learn more about Express and back-end, and integrate it into the face-recognition app!
+
+(By the way, I haven't solved that bug from yesterday yet...)
+
+***
 #### Day 51/100: 2:00 // sign in + node
 Today, I worked some more on the signing in functionality. I kept track of the where the user was at on the page, with `this.state.route` and could use it the determine whether to render the "sign in"-form, the "register"-form or the "detect face"-view. So far, the user can sign in by just clicking the "Sign in"-button, because I haven't added the back-end yet. I think it's looking pretty good though!
 
-Also got started on node and back-end - did some practicing writing code in a script.js-file and then running it with node in the terminal. Very cool!
+Also got started on node - did some practicing writing code in a script.js-file and then running it with node in the terminal. Very cool!
 
 For some reason, I got a weird bug when using the face detection function after implementing sign in, so now it's not working... Will have to look at it tomorrow.
 

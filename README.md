@@ -5,6 +5,27 @@ Here, I write of my successes and failures in learning web development. I'm taki
 ***
 
 ***
+#### Day 53/100: 1:00 // RESTful API, intro
+RESTful API is an architechtural style, which is used to make sure we have compatibility in transacations over the web. It can be seen as a set of rules, which makes sure everyone plays nicely. It uses GET (receive a resource) PUT (change the state or update a resource), POST (creates a resource), DELETE (remove it). Rest APIs are stateless, meaning that multiple calls can be made simultaneously, and each call is complete (so it doesn't rely on a previous state)
+
+The app-object has a couple of attributes, such as
+* **query** - followed by the ? in the url
+* **body** - contains the body of a post request
+* **header** - additional information included in the request
+* **params** - the parameters following the / in the url, like facebook.com/user/emil
+
+After that, I learned shortly about the fs-object. fs has a method, readFile, which takes a file and reads it (duh). Like so 
+
+```js
+fs.readFile('./hello.txt', (err, data) => {
+    if (err) {
+        console.log('ERROR');
+    }
+    console.log(data.toString());
+})
+```
+prints 'Hello there!' (which is the data of 'hello.txt')
+***
 #### Day 52/100: 2:10 // intro Express.js
 Today, I got started on back-end! Created a server file, and then installed nodemon, which was used to watch file change and restart server. Started by doing the old fashioned way of `const http = require('http');` and then created a server that way, but then installed Express.js and started playing around. Learned about how to use the different methods like .use, .get, .post et cetera. Couldn't do much with .post though, so I installed bodyParser to be able to parse whatever the user posted.
 

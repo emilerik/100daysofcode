@@ -5,6 +5,44 @@ Here, I write of my successes and failures in learning web development. I'm taki
 ***
 
 ***
+#### Day 54/100: 1:00 //
+Continuing on filesystem. There is also a synchronous way of reading files, with .readFileSync. The difference is that .readFile is asynchronous and therefore has a callback function, while .readFileSync stops the program until it has read the file. Async way is the preferred way when building a server.
+
+So far, we've got
+
+```js
+const fs = require('fs');
+
+fs.readFile('./hello.txt', (err, data) => {
+    if (err) {
+        console.log('ERRR');
+    }
+    console.log('Async: ' + data.toString()); //Hejsan!!
+})
+
+console.log('Sync: ' + fs.readFileSync('./hello.txt').toString());
+
+fs.writeFile('newFile.txt', 'Wassup!', err => {
+    if (err) {
+        console.log(err)
+    }
+});
+
+fs.appendFile('./hello.txt', ', some new words', err => {
+    if (err) {
+        console.log(err)
+    }
+});
+
+fs.unlink('newFile.txt', err => {
+    if (err) {
+        console.log(err)
+    }
+    console.log('Deleting newFile.txt')
+});
+```
+
+***
 #### Day 53/100: 1:00 // RESTful API, intro
 RESTful API is an architechtural style, which is used to make sure we have compatibility in transacations over the web. It can be seen as a set of rules, which makes sure everyone plays nicely. It uses GET (receive a resource) PUT (change the state or update a resource), POST (creates a resource), DELETE (remove it). Rest APIs are stateless, meaning that multiple calls can be made simultaneously, and each call is complete (so it doesn't rely on a previous state)
 

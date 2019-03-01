@@ -5,7 +5,7 @@ Here, I write of my successes and failures in learning web development. I'm taki
 ***
 
 ***
-#### Day 54/100: 1:00 //
+#### Day 54/100: 2:30 // fs, challenges, fixed bug
 Continuing on filesystem. There is also a synchronous way of reading files, with .readFileSync. The difference is that .readFile is asynchronous and therefore has a callback function, while .readFileSync stops the program until it has read the file. Async way is the preferred way when building a server.
 
 So far, we've got
@@ -42,6 +42,29 @@ fs.unlink('newFile.txt', err => {
 });
 ```
 
+After that, I did an old 'Advent of Code'-challenge, where you get a long string with parentheses (like '(()))(...') and you had to find how many more there were of one or the other. The training was to read the string from a separate file, and then build a function to get the result. I did three versions:
+* First I did an array solution with .reduce. I split the string with brackets.split('') to get individual array, and then used reduce with an accumulator on the array, adding to the accumulator when I got ( and subtracting when I got ). This was a fast solution, and is easy to follow. Time: 1.1 ms
+* Then I did a string solution with .replace. I simply removed one type of the parentheses with `brackets.replace(/\(/g, '')` and then compared the length of this new string with the original one. I liked this because it was a really short solution. It was also the fastest one. Time: 0.5 ms
+* Then I tried splitting them up so I only saved one type in an array, with brackets.split(')'), and then mapping over the whole array to accumulate the total length of '('-elements. Lastly, I compared with the length of the full string to get number of )s. Not a great solution - it iterates over a bunch of empty elements, and wasn't very fast. Time: 2.5 ms.
+
+Lastly, I solved my bug in the face-recognition app! :D Can you spot it...?
+
+```js
+onButtonSubmit = () => {
+    this.setState({ imageUrl: this.state.input });
+    app.models
+      .predict(
+        Clarifai.FACE_DETECT_MOD6EL, 
+        this.state.input)
+    .then(response => this.displayFaceBox(this.calculateFaceLocation(response)))
+    .catch(err => console.log(err));
+  }
+```
+
+Yeah, spoilers... `FACE_DETECT_MOD6EL` Don't accidently add numbers to methods. Turns out it produces some weird bugs. 
+
+
+		
 ***
 #### Day 53/100: 1:00 // RESTful API, intro
 RESTful API is an architechtural style, which is used to make sure we have compatibility in transacations over the web. It can be seen as a set of rules, which makes sure everyone plays nicely. It uses GET (receive a resource) PUT (change the state or update a resource), POST (creates a resource), DELETE (remove it). Rest APIs are stateless, meaning that multiple calls can be made simultaneously, and each call is complete (so it doesn't rely on a previous state)

@@ -5,6 +5,23 @@ Here, I write of my successes and failures in learning web development. I'm taki
 ***
 
 ***
+#### Day 55/100: 2:00 // continuing on face recognition app (FaRe)
+I got back to the face recognition app, and started building some back end for it. So far, planned the routes for /signin and /register. The idea is that with post requests, you send user data either to be verified (in signin) or to be stored (in register). So far, it's a rather rudimentary solution, but I'll build it into something more sophisticated. I used Postman to test all these functions, and they worked :)
+
+As a start, this only tested the first user. Later, I'll use a database:
+
+```js
+app.post('/signin', (req, res) => {
+    if (req.body.email === database.users[0].email &&
+    req.body.password === database.users[0].password) {
+        res.json('success');
+    } else {
+        res.status(400).json('error logging in');
+    }
+});
+```
+
+***
 #### Day 54/100: 2:30 // fs, challenges, fixed bug
 Continuing on filesystem. There is also a synchronous way of reading files, with .readFileSync. The difference is that .readFile is asynchronous and therefore has a callback function, while .readFileSync stops the program until it has read the file. Async way is the preferred way when building a server.
 

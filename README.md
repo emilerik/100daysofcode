@@ -5,6 +5,14 @@ Here, I write of my successes and failures in learning web development. I'm taki
 ***
 
 ***
+#### Day 56/100: 2:00 // FaRe, :id, image, bcrypt
+Added two routes: /:id and /image. id is used for accessing a users info, given their user id, and image is used whenever an image is submitted. This increments the user's "entries"-counts. I'm just testing to see if these worked - later I'll integrate them with the front end functionalities.
+
+bcrypt is a node package which can be used to encrypt user data, like passwords. The way it works is that it creates a hash from the password when the user registers, which it then can use to compare a login attempt from the user. You use it so that this sort of data isn't stored in plain text in the database. I haven't gotten to the database yet, but at least I got some of the core functions down.
+
+Also thinking of a way of pushing the app to github, without sending the API key with the source code. Currently leaning towards using local environment variables.
+
+***
 #### Day 55/100: 2:00 // continuing on face recognition app (FaRe)
 I got back to the face recognition app, and started building some back end for it. So far, planned the routes for /signin and /register. The idea is that with post requests, you send user data either to be verified (in signin) or to be stored (in register). So far, it's a rather rudimentary solution, but I'll build it into something more sophisticated. I used Postman to test all these functions, and they worked :)
 

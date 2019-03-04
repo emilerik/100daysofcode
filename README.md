@@ -5,6 +5,14 @@ Here, I write of my successes and failures in learning web development. I'm taki
 ***
 
 ***
+#### Day 57/100: 2:00 // connecting the ends
+I finally got to integrating the front end with the back end. Now, you can register a user to the server (which gets stored in the "database"), and sign in only if you're a registered user. Also added the feature of when you use the face recognition feature, your entry count goes up!
+
+One of the last parts is actually creating a database (and to make it all look better and work better). Other than that, I'm pretty excited about the progress!
+
+![dag57](./screenshots/57.png?raw=true "dag57")
+
+***
 #### Day 56/100: 2:00 // FaRe, :id, image, bcrypt
 Added two routes: /:id and /image. id is used for accessing a users info, given their user id, and image is used whenever an image is submitted. This increments the user's "entries"-counts. I'm just testing to see if these worked - later I'll integrate them with the front end functionalities.
 

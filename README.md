@@ -5,6 +5,12 @@ Here, I write of my successes and failures in learning web development. I'm taki
 ***
 
 ***
+#### Day 58/100: 1:00 // intro DB
+Short day - learned of the introductory stuff about databases. Two main types: SQL and NoSQL, where SQL databases are relational databases - they consist of different tables that contain data related to each other and can point to other data via keys. Example: one table with users and one table with the users' tweets. Nonrelational databases (like MongoDB) are simpler - they create self containing "documents", which are more complete descriptions of an object. Example - a user entry in the database, which contains the user's email, tweets, and about-info. The concept - when you have a clear idea of how to structure your data, use relational, and when it is more unclear, use nonrelational.
+
+I will learn the relational database PostgreSQL to start with, and use PSequel as a GUI for playing around with it.
+
+***
 #### Day 57/100: 2:00 // connecting the ends
 I finally got to integrating the front end with the back end. Now, you can register a user to the server (which gets stored in the "database"), and sign in only if you're a registered user. Also added the feature of when you use the face recognition feature, your entry count goes up!
 

@@ -1,8 +1,21 @@
 ## Emils #100DaysOfCode
 Här skriver jag om min framgångar och motgångar i att lära mig webbutveckling. Jag följer en kurs som heter The Complete Web Developer in 2019: Zero to Mastery från Udemy. Idén är att jag ska klara av att programmera 100 dagar i sträck. Vi får se hur det går.
 
-Here, I write of my successes and failures in learning web development. I'm taking a course called The Complete Web Developer in 2019: Zero to Mastery from Udemy. The idea is that I'm going to code for 100 days in a row. We'll see how it goes. The first 39 days of the journal is in Swedish.
+Here, I write of my successes and struggles in learning web development. I'm taking a course called The Complete Web Developer in 2019: Zero to Mastery from Udemy. The idea is that I'm going to code for 100 days in a row. We'll see how it goes. The first 39 days of the journal is in Swedish.
 ***
+
+***
+#### Day 59/100: 1:00 // DB, continued
+Some more hands-on work with databases today, practicing basic SQL commands.
+
+* CREATE TABLE (column1 datatype, column2 datatype,...) // creates a table
+* INSERT INTO table (column1, ...) VALUES (value1, ...) // adds entries to the table
+* SELECT column1, ... FROM table // displays values from table
+* ALTER TABLE table ADD column datatype // adds a column to a table
+
+You can also use the LIKE keyword to select matching strings, for example LIKE 'E%', which selects anything that starts with an E.
+
+The power of databases is that they are built for exactly the purpose of getting, storing, and updating data. Compared to storing user information in something like an array in js, which you'd have to loop through to get some data, databases are far more efficient and optimized for those type of jobs.
 
 ***
 #### Day 58/100: 1:00 // intro DB

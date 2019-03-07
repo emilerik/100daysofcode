@@ -5,6 +5,14 @@ Here, I write of my successes and struggles in learning web development. I'm tak
 ***
 
 ***
+#### Day 60/100: 1:30 // finishing db,
+Two months in! :D And 85% through the course. I'm excited to finish it up, and start building my own, bigger projects.
+
+Today I finished up the section about databases. Learned about using SQL functions like AVG and SCORE, then about joining tables, and lastly about deleting parts from tables and dropping (removing) a table. After that, I got stuck watch a [computerphile video](https://www.youtube.com/watch?v=ciNHn38EyRc) about SQL injection attacks, which was super interesting.
+
+This weekend, I'm definitely gonna finish up the fare app.
+
+***
 #### Day 59/100: 1:00 // DB, continued
 Some more hands-on work with databases today, practicing basic SQL commands.
 

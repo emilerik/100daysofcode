@@ -5,6 +5,12 @@ Here, I write of my successes and struggles in learning web development. I'm tak
 ***
 
 ***
+#### Day 61/100: 2:00 // integrating db in fare
+Today, I finally connected the database, server and front-end on the FaRe app. I can now register a user with post requests to the website, which gets stored in the database, and the sign in feature checks against the database when user enters credentials.
+
+The next step is tidying up the code, adding some features, and lastly deployment!
+
+***
 #### Day 60/100: 1:30 // finishing db,
 Two months in! :D And 85% through the course. I'm excited to finish it up, and start building my own, bigger projects.
 

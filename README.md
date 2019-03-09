@@ -5,13 +5,21 @@ Here, I write of my successes and struggles in learning web development. I'm tak
 ***
 
 ***
+#### Day 62/100: 1:30 // connecting the pieces
+I got use of bcrypt today for the first time, to hash the user passwords when they register. Testing the hash against the password when the user attempts to sign in worked great.
+
+I kept building on the server and validation today, and I more or less have all the parts working together now. The user can register on the website, then log in, then it keeps track of the number of entries the user has made.
+
+I still have some weird bugs lingering, so the next step is to review the code and figure those things out.
+
+***
 #### Day 61/100: 2:00 // integrating db in fare
 Today, I finally connected the database, server and front-end on the FaRe app. I can now register a user with post requests to the website, which gets stored in the database, and the sign in feature checks against the database when user enters credentials.
 
 The next step is tidying up the code, adding some features, and lastly deployment!
 
 ***
-#### Day 60/100: 1:30 // finishing db,
+#### Day 60/100: 1:30 // finishing db
 Two months in! :D And 85% through the course. I'm excited to finish it up, and start building my own, bigger projects.
 
 Today I finished up the section about databases. Learned about using SQL functions like AVG and SCORE, then about joining tables, and lastly about deleting parts from tables and dropping (removing) a table. After that, I got stuck watch a [computerphile video](https://www.youtube.com/watch?v=ciNHn38EyRc) about SQL injection attacks, which was super interesting.

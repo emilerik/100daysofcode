@@ -5,6 +5,18 @@ Here, I write of my successes and struggles in learning web development. I'm tak
 ***
 
 ***
+#### Day 63/100: 2:00 // cleaning up
+I still have a couple of bugs and improvements that I'm trying to fix on the app.
+
+Today's concept: **dependency injection.** Example: when you're splitting a big file into smaller separate ones with clear, defined functions, you might run into the problem that a sub file needs dependencies from the main file. Like, register.js need the variable db from server.js. You can then do dependency injection, which means you attach any dependencies in the function call, like so (in the main file, server.js):
+
+```js
+app.post("/register", (req, res) => { register.handleRegister(req, res, db, bcrypt) });
+```
+
+Fixed a bug where you could register without entering any information. The bug was that, after receiving a response with 'user' from the server, I used `if (user) { ...` to reroute after clicking submit. However, if you entered no input, the server responded with "unable to register", which, of course, evaluates to true as a boolean. I fixed it by changing it to `if (user.id) { ...` which will return undefined unless it's an object, and undefined evaluates to false. Yay!
+
+***
 #### Day 62/100: 1:30 // connecting the pieces
 I got use of bcrypt today for the first time, to hash the user passwords when they register. Testing the hash against the password when the user attempts to sign in worked great.
 

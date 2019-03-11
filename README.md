@@ -5,6 +5,14 @@ Here, I write of my successes and struggles in learning web development. I'm tak
 ***
 
 ***
+#### Day 64/100: 1:00 // security review
+Today I did a security review of the facial recognition app.
+
+The idea is that you want layers of security - you don't want to accept incorrect user input at the front end, but if it does get through, you want to make sure the back end handles it safely as well. So I added a few controls at the server, like checking that any input wasn't empty.
+
+Another problem was that the API key for the facial recognition was sent in the header of the request, which is bad news. It means that the user can access my API key. So instead, the authorization was moved to the back end, and the API request was sent from the server. Got some weird bug which fixed itself.
+
+***
 #### Day 63/100: 2:00 // cleaning up
 I still have a couple of bugs and improvements that I'm trying to fix on the app.
 

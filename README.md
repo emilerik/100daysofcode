@@ -5,6 +5,14 @@ Here, I write of my successes and struggles in learning web development. I'm tak
 ***
 
 ***
+#### Day 65/100: 2:00 // Deployed! (or halfway...)
+I deployed the fare app on Heroku today!
+
+I spent some time adjusting all the end points and URLs to be compatible with Heroku, and got a bunch of bugs along the way. I was able to fix them though, and then went through the installation process, which was (surprisingly) smooth. So far, I've deployed the server and database, but not the front end though. Will probably do it through github. 
+
+It was very cool when I was able to register and sign in a user, knowing that half of the app was hosted on some computer, somewhere in the world! Still have some bugs that I have to deal with, like the fact that it doesn't increment entry count.
+
+***
 #### Day 64/100: 1:00 // security review
 Today I did a security review of the facial recognition app.
 

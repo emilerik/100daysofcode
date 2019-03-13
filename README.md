@@ -5,6 +5,18 @@ Here, I write of my successes and struggles in learning web development. I'm tak
 ***
 
 ***
+#### Day 66/100: 1:30 // ..aaaand we're live!
+Deployed the front end on Heroku today as well! So now we have the full app living in the cloud.
+
+There are still lots of things that can be improved upon and expanded, but I'm still proud of it - it's a React app built from scratch with (some) design, a cool API function, a server, a database, and proper password validation.
+
+I'm thinking the next step is to keep fixing some unwanted features, improve the design and make it look better in mobile devices. It definitely some sort of error message when user input in incorrect. One thing I also noticed is that it's slow when using it online - I guess that's the price of free hosting.
+
+By the way, I actually reached the end of the Udemy course. The only thing I have left is a part of Redux, which I waited with - after that I'm 100% finished.
+
+Lo and behold: http://fare-facial-recognition.herokuapp.com/
+
+***
 #### Day 65/100: 2:00 // Deployed! (or halfway...)
 I deployed the fare app on Heroku today!
 

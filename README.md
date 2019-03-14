@@ -5,6 +5,21 @@ Here, I write of my successes and struggles in learning web development. I'm tak
 ***
 
 ***
+#### Day 67/100: 1:30 // Redux!
+I got started with Redux today! The problem that Redux attempts to solve is this: when you're building an app, especially if it's big, all these components and their children and their children's children have states, and when a state is updated, things kinda trickle up and down, and it can get messy. 
+
+Redux is a library which does state management, by taking state out of components and putting them in the same place - and letting components just handle props. (Although you can still use state in React with Redux) Its benefits can be summarized as:
+
+* Good for large apps with a lot of states
+* Useful when sharing data between containers
+* State management is predictable, through these principles:
+	1. Single source of truth
+	2. State is read only
+	3. Changes are made with pure functions
+
+Before, using something like jQuery, you had action -> make changes. Everything a user did when interacting with a website triggered a change, which might trigger another change and so on. With Redux, you have action -> reducer -> store -> make changes. From what I understand, the reducer is something like a pure function that reacts to an action, then updates the store, which contains all the information of how the website should look. Then, React looks at this and renders the View. Something like that.
+
+***
 #### Day 66/100: 1:30 // ..aaaand we're live!
 Deployed the front end on Heroku today as well! So now we have the full app living in the cloud.
 

@@ -5,6 +5,35 @@ Here, I write of my successes and struggles in learning web development. I'm tak
 ***
 
 ***
+#### Day 68/100: 2:00 // Redux cont.
+For practicing Redux, I went back to the robofriends app, I'm about to implement Redux for state management instead of vanilla React. I started by creating an action (which is an object), setSearchField, which takes text as argument and has the attributes type and payload, like so:
+
+```js
+export const setSearchField = text => ({
+  type: "CHANGE_SEARCH_FIELD",
+  payload: text
+});
+```
+After that, I created the reducer searchRobots, which takes a state and an action as arguments. This is the pure function that handles the actions taken by the user. A snippet of code:
+
+```js
+export const searchRobots = (state = initialState, action = {}) => {
+  switch (action.type) {
+    case CHANGE_SEARCH_FIELD:
+      return Object.assign({}, state, { searchField: action.payload });
+    default:
+      return state;
+  }
+};
+```
+
+After that, I created the store, which has the "rootReducer", basically all the reducers mashed into one.
+
+The components that are called containers are the smart components, that subscribe to any changes made in Redux, in order to update the props (in this case, the App component).
+
+By the way, I just applied for a hackathon in Stockholm on April 27th - which is like a week after I finish the 100 days. That'd be cool!
+
+***
 #### Day 67/100: 1:30 // Redux!
 I got started with Redux today! The problem that Redux attempts to solve is this: when you're building an app, especially if it's big, all these components and their children and their children's children have states, and when a state is updated, things kinda trickle up and down, and it can get messy. 
 

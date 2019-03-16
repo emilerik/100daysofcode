@@ -10,6 +10,8 @@ Short post today - I more or less finished the robofriends with Redux implemente
 
 I have two more videos before finishing the web dev course :)
 
+Here's the app: https://github.com/emilerik/robofriends-redux
+
 ***
 #### Day 68/100: 2:00 // Redux cont.
 For practicing Redux, I went back to the robofriends app, I'm about to implement Redux for state management instead of vanilla React. I started by creating an action (which is an object), setSearchField, which takes text as argument and has the attributes type and payload, like so:

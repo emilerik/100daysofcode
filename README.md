@@ -5,6 +5,12 @@ Here, I write of my successes and struggles in learning web development. I'm tak
 ***
 
 ***
+#### Day 69/100: 1:00 // robofriends Redux
+Short post today - I more or less finished the robofriends with Redux implemented. I added an asynchronous API request of the robots which was a little tricky when using Redux. I used middleware called thunk, which basically listened for asynchronous calls from actions, and then handled them accordingly. It wasn't very easy to understand. I'll review the code tomorrow and make sure I understood everything.
+
+I have two more videos before finishing the web dev course :)
+
+***
 #### Day 68/100: 2:00 // Redux cont.
 For practicing Redux, I went back to the robofriends app, I'm about to implement Redux for state management instead of vanilla React. I started by creating an action (which is an object), setSearchField, which takes text as argument and has the attributes type and payload, like so:
 

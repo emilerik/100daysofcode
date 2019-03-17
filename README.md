@@ -14,6 +14,8 @@ It feels like I've just scratched the surface, and there's much more to learn. T
 
 I'm super excited to spend the rest of these 30 days on the challenge (and beyond) with building bigger projects of my own, and to further develop my skills.
 
+![Day 70](https://udemy-certificate.s3.amazonaws.com/image/UC-378VSL9W.jpg)
+
 ***
 #### Day 69/100: 1:00 // robofriends Redux
 Short post today - I more or less finished the robofriends with Redux implemented. I added an asynchronous API request of the robots which was a little tricky when using Redux. I used middleware called thunk, which basically listened for asynchronous calls from actions, and then handled them accordingly. It wasn't very easy to understand. I'll review the code tomorrow and make sure I understood everything.

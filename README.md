@@ -5,6 +5,16 @@ Here, I write of my successes and struggles in learning web development. I'm tak
 ***
 
 ***
+#### Day 70/100: 2:00 // Beginning of end/end of beginning?
+Today marks day 70 on the 100 day calendar, and 100% on the Udemy Web Development course. It feels great to have gone through the whole thing, and I'm proud I've gotten this far. Thirty days to go on the challenge, which I think will be a breeze.
+
+I've gone from knowing the very basics of HTML, CSS and JavaScript, to feel pretty confident in all of them, in addition to learning the frameworks and libraries of React, Node, NPM, Express, Redux and PostgreSQL. The learning process has been so much more than just learning how to build a website, because it's all of these things surrounding it - like learning Git, understanding how to think like a web developer, knowing where to find good information, how to read documentation, and just getting an understanding of the web development world. 
+
+It feels like I've just scratched the surface, and there's much more to learn. This course has introduced a lot of concepts of modern web development and I'm glad I've gotten to try these things out, but I think it's now that the real learning begins. Following along a course feels safe and easy, and I think that what awaits me now are all those hours of debugging, making errors, figuring out how to solve problems that arise, and just building an intuition and getting things into muscle memory.
+
+I'm super excited to spend the rest of these 30 days on the challenge (and beyond) with building bigger projects of my own, and to further develop my skills.
+
+***
 #### Day 69/100: 1:00 // robofriends Redux
 Short post today - I more or less finished the robofriends with Redux implemented. I added an asynchronous API request of the robots which was a little tricky when using Redux. I used middleware called thunk, which basically listened for asynchronous calls from actions, and then handled them accordingly. It wasn't very easy to understand. I'll review the code tomorrow and make sure I understood everything.
 

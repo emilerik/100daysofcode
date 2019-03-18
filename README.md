@@ -5,6 +5,12 @@ Here, I write of my successes and struggles in learning web development. I'm tak
 ***
 
 ***
+#### Day 71/100: 3:00 // pretty-new-tab
+Today, I walked into the wild. Or rather stumbled, maybe. I decided to start building a little useful app for myself, called pretty-new-tab. The idea is that it shows up whenever I open a new tab in the browser, and displays current time, a nice little message, my calendar events and the weather. Like a dashboard.
+
+I use React to build it. I researched getting the weather from the SMHI API, and I actually got it to work! Which was really cool. I struggled for longer than I'd like to admit with getting a background image in place. There, I plan on using the Unsplash API (a website with a bunch of free, cool photos) to generate a random wallpaper. Lastly, I plan on integrating Google Calendar with their API, which will be interesting.
+
+***
 #### Day 70/100: 2:00 // Beginning of end/end of beginning?
 Today marks day 70 on the 100 day calendar, and 100% on the Udemy Web Development course. It feels great to have gone through the whole thing, and I'm proud I've gotten this far. Thirty days to go on the challenge, which I think will be a breeze.
 

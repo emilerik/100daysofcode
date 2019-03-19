@@ -16,6 +16,8 @@ I continued on the pretty-new-tab app, and I started really playing around with 
 
 I think the next part will be to randomize background image with the Unsplash API...
 
+Here's a preview:
+
 ![Day 72](./screenshots/72.png?raw=true)
 
 ---

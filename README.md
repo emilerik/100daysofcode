@@ -8,6 +8,18 @@ Here, I write of my successes and struggles in learning web development. I'm tak
 
 ---
 
+#### Day 73/100: 1:30 // Unsplash API + problems
+
+I succeeded in displaying a random wallpaper image each time pretty-new-tab is rendered, which was very cool. I tried researching how to have the API key local so I don't push it to github, but I didn't quite figure it out.
+
+However, I ran into a problem: I just assumed that chrome supported custom URLs when pressing new tab, but it turns out it doesn't... Which kinda sucks. So I had to download an addon for chrome that lets me do that. Not optimal, though. I'm pretty pleased with the loading time though! It's like two seconds or so.
+
+Also, I added the weather symbol:
+
+ ![Day 73](./screenshots/73.png?raw=true)
+
+---
+
 #### Day 72/100: 2:00 // weather API
 
 Man, today was a lot of fun!!

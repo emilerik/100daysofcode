@@ -14,7 +14,7 @@ I succeeded in displaying a random wallpaper image each time pretty-new-tab is r
 
 However, I ran into a problem: I just assumed that chrome supported custom URLs when pressing new tab, but it turns out it doesn't... Which kinda sucks. So I had to download an addon for chrome that lets me do that. Not optimal, though. I'm pretty pleased with the loading time though! It's like two seconds or so.
 
-Also, I added the weather symbol (never mind the sublime text box...):
+Also, I added the weather symbol:
 
  ![Day 73](./screenshots/73.png?raw=true)
 

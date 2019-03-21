@@ -6,6 +6,17 @@ Here, I write of my successes and struggles in learning web development. I'm tak
 
 ---
 
+
+---
+
+#### Day 74/100: 2:00 // Documentation + generate new background
+
+I recently realized I haven't done much documentation so far. I looked over my github repo and it was quite poorly commented, so I added descriptions to all projects, and I aim to add more comments in my code as well.
+
+I continued working on the pretty-dashboard app (renamed from pretty-new-tab) and I attempted adding the google calendar API, thinking it wouldn't be too hard. Turns out it was. There's a lot of bureaucracy in getting permission to use the calendar API, such as having a valid website address (localhost didn't cut it) so I kinda abandoned that idea. Then I wanted to add a "Generate new background"-button to the app, but encountered a problem. Since I access the random photo with a url, `https://source.unsplash.com/1600x900/?wallpaper`, it's a new one every time I refresh, but there's no real way to get it to re-render unfortunately - because the core url doesn't change, only what you get redirected to.
+
+So I still think I can do it, but I'll have to use the Unsplash API instead, as I intented from start.
+
 ---
 
 #### Day 73/100: 1:30 // Unsplash API + problems

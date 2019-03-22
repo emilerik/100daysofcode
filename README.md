@@ -9,6 +9,18 @@ Here, I write of my successes and struggles in learning web development. I'm tak
 
 ---
 
+#### Day 75/100: 1:00 // Unsplash API success!
+
+So, I succeeded in doing what I was thinking of yesterday - I got the "Generate New Background"-button to work, by changing from getting a random wallpaper image from URL to getting it as an API call. I created a function called `onGenerateBackground` which made the fetch and was used both in the componentDidMount as well as the generate background-button.
+
+I got a little too excited though, and used up my hourly rate of API calls. Oops.
+
+(25 days to go. Woop woop!)
+
+ ![Day 75](./screenshots/73.png?raw=true)
+
+---
+
 #### Day 74/100: 2:00 // Documentation + generate new background
 
 I recently realized I haven't done much documentation so far. I looked over my github repo and it was quite poorly commented, so I added descriptions to all projects, and I aim to add more comments in my code as well.

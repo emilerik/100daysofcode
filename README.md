@@ -17,7 +17,7 @@ I got a little too excited though, and used up my hourly rate of API calls. Oops
 
 (25 days to go. Woop woop!)
 
- ![Day 75](./screenshots/73.png?raw=true)
+ ![Day 75](./screenshots/75.png?raw=true)
 
 ---
 

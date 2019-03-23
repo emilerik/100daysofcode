@@ -6,6 +6,16 @@ Here, I write of my successes and struggles in learning web development. I'm tak
 
 ---
 
+---
+
+#### Day 76: 1:00 // Marrakech + github troubles
+ Today, I flew to Morocco for vacation. I didn't bring my laptop, so I knew coding was gonna be a bit of an issue.
+
+I've started learning python through an app called SoloLearn. The content is surprisingly good and it's a great replacement for something like looking at Facebook. Today, I leaned about how control structures, like if, while and for work in python.
+
+I can't do commits to the github repo from the phone, so I'm doing local journal entries for now.
+
+edit: turns out I can actually do commits.
 
 ---
 

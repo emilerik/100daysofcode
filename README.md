@@ -8,8 +8,51 @@ Here, I write of my successes and struggles in learning web development. I'm tak
 
 ---
 
+#### Day 81: 1:00 // isinfo
+
+Home from Africa! I had a great trip, but as mentioned earlier, I didn't bring a laptop so I've been learning Python with the help of an app the last couple of days. Since I didn't really have internet, I wrote the journal posts in my phone, and I'm uploading them now.
+
+Feels crazy that it's less than three weeks to go of the 100 day challenge. I'm super excited to take something big on and eventually work together with a team.
+
+Today, I started reviving an old web app I thought of years ago - isinfo (ice info). It's basically a forum where users who ice skate can post reports about ice conditions at lakes, so you can get information and inspiration about where to go. I'm gonna build it in React, and I'm still in the planning phase - what I'm wondering about is whether I should use some sort of boilerplate layout or build everything from scratch. I'm leaning towards scratch.
+
+The basic functionalities I'm thinking the website should have is a navigation bar, a way of signing in and out, a way to post new report and to search/browse reports.
+
+---
+
+#### Day 80: 1:00 // functional programming
+
+Today, I studied functional programming. I've done it in Scheme earlier but it was good with some repetition. The idea behind functional programming is the use of functions and importantly, higher order functions that except functions as arguments. We usually strive to create pure functions, that have no side effects and always return the same output given the same input.
+
+A lambda function is an anonymous function, especially useful in higher order functions.
+
+---
+
+#### Day 79: 1:00 // lists, tuples, dictionaries
+
+SoloLearn continued. Today I learned about lists, tuples and dictionaries. Dictionaries use key-value pairs, like "name": "Emil", while lists are just what they sounds like, lists. Lists can be change, so they are mutable. Tuples are similar to lists, except faster, and the difference is that they are immutable.
+
+---
+
+#### Day 78: 1:00 // exceptions, read/write files
+
+SoloLearn python course continued. Today I learned about exceptions and files. Exceptions are what happen when something goes wrong in the code. You do a try - except block, which is the equivalent of try - catch in JavaScript.
+
+One thing that was interesting was the assert function - you basically assert that something is true, and if it's not, it raises an error. Great for checking for example input types in the beginning of a function, or the output at the end. I don't know if JavaScript has it?
+
+You can read, write and spend to files in python as well - nothing too fancy. Don't forget to close the file after you're done.
+
+---
+
+#### Day 77: 0:40 // functions and modules
+
+I kept on learning in the SoloLearn app today, with python. It strikes me how much python looks like pseudoprogramming: things just look exactly like you expect them to, and it is an intuitive syntax. Today, the focus was on functions and modules - you can import standard libraries that come with python, and you can also install third party ones.
+
+---
+
 #### Day 76: 1:00 // Marrakech + github troubles
- Today, I flew to Morocco for vacation. I didn't bring my laptop, so I knew coding was gonna be a bit of an issue.
+
+Today, I flew to Morocco for vacation. I didn't bring my laptop, so I knew coding was gonna be a bit of an issue.
 
 I've started learning python through an app called SoloLearn. The content is surprisingly good and it's a great replacement for something like looking at Facebook. Today, I leaned about how control structures, like if, while and for work in python.
 

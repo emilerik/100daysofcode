@@ -6,6 +6,13 @@ Here, I write of my successes and struggles in learning web development. I'm tak
 
 ---
 
+
+---
+
+#### Day 82: 1:00 // navbar
+
+Started on the navbar today. Using React Bootstrap for pretty components. Struggled for a while to get it to work though, until I realized I hadn't included the CSS for the Bootstrap. Duh...
+
 ---
 
 #### Day 81: 1:00 // isinfo

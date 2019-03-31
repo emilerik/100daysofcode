@@ -13,7 +13,7 @@ Continued a bit on the isinfo app. I want to create a bigger project that could 
 
 I worked on the basic layout today, and I've really come to like tachyons. Small CSS fixes and things like flexbox is really handy to use it for.
 
-Right now, I'm thinking of doing a table layout, where each post is a row in the table. Maybe you could click it to expand, and see more information about the post. Next step is to make a way of adding a post.
+Right now, I'm thinking of doing a table layout, where each post is a row in the table. Maybe you could click it to expand, and see more information about the post. Next step is to make a way of adding a post, and obviously make it look prettier.
 
 ![Day 84](./screenshots/84.png?raw=true)
 

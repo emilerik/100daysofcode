@@ -10,6 +10,24 @@ Here, I write of my successes and struggles in learning web development. I'm tak
 
 #### Day 83: 4:00 // pretty-dashboard continued
 
+Did a lot of work on the pretty-dashboard app today!
+
+I wanted a way for the user to set their own position and name, so I added a little settings button with a dropdown menu. That was definitely easier said than done, and it took quite some time of researching bootstrap docs to get it like I wanted. It was fun to add the functions, because it made the project less static.
+
+I encountered a problem when adding the "Update" button, which took the user entries, and sent them to a function to get new weather data. The problem was that I had to click twice in order for it to update. It seemed that the problem was when using setState and directly afterwards trying to update the weather data (which relied one the updated state) the state hadn't had time to update.
+
+```js
+onSubmitUpdate = (lat, long, name) => {
+    if (lat && long) {
+      this.setState({ lat: lat, long: long });
+      this.updateWeatherData();
+      ...
+```
+
+updateWeatherData used `this.state.lat` and `this.state.long` to get the weather, but as I mentioned, didn't get the latest state. I fixed it by sending lat and long directly to the updateWeatherData-function and removing them as state altogether.
+
+I also played with the design a bit, and made the center text responsive, which was fun
+
 ---
 
 #### Day 82: 1:00 // navbar

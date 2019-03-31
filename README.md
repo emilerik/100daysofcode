@@ -28,6 +28,8 @@ updateWeatherData used `this.state.lat` and `this.state.long` to get the weather
 
 I also played with the design a bit, and made the center text responsive, which was fun
 
+![Day 83](./screenshots/83.png?raw=true)
+
 ---
 
 #### Day 82: 1:00 // navbar

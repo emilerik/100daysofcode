@@ -8,6 +8,110 @@ Here, I write of my successes and struggles in learning web development. I'm tak
 
 ---
 
+#### Day 83: 4:00 // pretty-dashboard continued
+
+Did a lot of work on the pretty-dashboard app today!
+
+I wanted a way for the user to set their own position and name, so I added a little settings button with a dropdown menu. That was definitely easier said than done, and it took quite some time of researching bootstrap docs to get it like I wanted. It was fun to add the functions, because it made the project less static.
+
+I encountered a problem when adding the "Update" button, which took the user entries, and sent them to a function to get new weather data. The problem was that I had to click twice in order for it to update. It seemed that the problem was when using setState and directly afterwards trying to update the weather data (which relied one the updated state) the state hadn't had time to update.
+
+```js
+onSubmitUpdate = (lat, long, name) => {
+    if (lat && long) {
+      this.setState({ lat: lat, long: long });
+      this.updateWeatherData();
+      ...
+```
+
+updateWeatherData used `this.state.lat` and `this.state.long` to get the weather, but as I mentioned, didn't get the latest state. I fixed it by sending lat and long directly to the updateWeatherData-function and removing them as state altogether.
+
+I also played with the design a bit, and made the center text responsive, which was fun
+
+---
+
+#### Day 82: 1:00 // navbar
+
+Started on the navbar today. Using React Bootstrap for pretty components. Struggled for a while to get it to work though, until I realized I hadn't included the CSS for the Bootstrap. Duh...
+
+---
+
+#### Day 81: 1:00 // isinfo
+
+Home from Africa! I had a great trip, but as mentioned earlier, I didn't bring a laptop so I've been learning Python with the help of an app the last couple of days. Since I didn't really have internet, I wrote the journal posts in my phone, and I'm uploading them now.
+
+Feels crazy that it's less than three weeks to go of the 100 day challenge. I'm super excited to take something big on and eventually work together with a team.
+
+Today, I started reviving an old web app I thought of years ago - isinfo (ice info). It's basically a forum where users who ice skate can post reports about ice conditions at lakes, so you can get information and inspiration about where to go. I'm gonna build it in React, and I'm still in the planning phase - what I'm wondering about is whether I should use some sort of boilerplate layout or build everything from scratch. I'm leaning towards scratch.
+
+The basic functionalities I'm thinking the website should have is a navigation bar, a way of signing in and out, a way to post new report and to search/browse reports.
+
+---
+
+#### Day 80: 1:00 // functional programming
+
+Today, I studied functional programming. I've done it in Scheme earlier but it was good with some repetition. The idea behind functional programming is the use of functions and importantly, higher order functions that except functions as arguments. We usually strive to create pure functions, that have no side effects and always return the same output given the same input.
+
+A lambda function is an anonymous function, especially useful in higher order functions.
+
+---
+
+#### Day 79: 1:00 // lists, tuples, dictionaries
+
+SoloLearn continued. Today I learned about lists, tuples and dictionaries. Dictionaries use key-value pairs, like "name": "Emil", while lists are just what they sounds like, lists. Lists can be change, so they are mutable. Tuples are similar to lists, except faster, and the difference is that they are immutable.
+
+---
+
+#### Day 78: 1:00 // exceptions, read/write files
+
+SoloLearn python course continued. Today I learned about exceptions and files. Exceptions are what happen when something goes wrong in the code. You do a try - except block, which is the equivalent of try - catch in JavaScript.
+
+One thing that was interesting was the assert function - you basically assert that something is true, and if it's not, it raises an error. Great for checking for example input types in the beginning of a function, or the output at the end. I don't know if JavaScript has it?
+
+You can read, write and spend to files in python as well - nothing too fancy. Don't forget to close the file after you're done.
+
+---
+
+#### Day 77: 0:40 // functions and modules
+
+I kept on learning in the SoloLearn app today, with python. It strikes me how much python looks like pseudoprogramming: things just look exactly like you expect them to, and it is an intuitive syntax. Today, the focus was on functions and modules - you can import standard libraries that come with python, and you can also install third party ones.
+
+---
+
+#### Day 76: 1:00 // Marrakech + github troubles
+
+Today, I flew to Morocco for vacation. I didn't bring my laptop, so I knew coding was gonna be a bit of an issue.
+
+I've started learning python through an app called SoloLearn. The content is surprisingly good and it's a great replacement for something like looking at Facebook. Today, I leaned about how control structures, like if, while and for work in python.
+
+I can't do commits to the github repo from the phone, so I'm doing local journal entries for now.
+
+edit: turns out I can actually do commits.
+
+---
+
+#### Day 75/100: 1:00 // Unsplash API success!
+
+So, I succeeded in doing what I was thinking of yesterday - I got the "Generate New Background"-button to work, by changing from getting a random wallpaper image from URL to getting it as an API call. I created a function called `onGenerateBackground` which made the fetch and was used both in the componentDidMount as well as the generate background-button.
+
+I got a little too excited though, and used up my hourly rate of API calls. Oops.
+
+(25 days to go. Woop woop!)
+
+ ![Day 75](./screenshots/75.png?raw=true)
+
+---
+
+#### Day 74/100: 2:00 // Documentation + generate new background
+
+I recently realized I haven't done much documentation so far. I looked over my github repo and it was quite poorly commented, so I added descriptions to all projects, and I aim to add more comments in my code as well.
+
+I continued working on the pretty-dashboard app (renamed from pretty-new-tab) and I attempted adding the google calendar API, thinking it wouldn't be too hard. Turns out it was. There's a lot of bureaucracy in getting permission to use the calendar API, such as having a valid website address (localhost didn't cut it) so I kinda abandoned that idea. Then I wanted to add a "Generate new background"-button to the app, but encountered a problem. Since I access the random photo with a url, `https://source.unsplash.com/1600x900/?wallpaper`, it's a new one every time I refresh, but there's no real way to get it to re-render unfortunately - because the core url doesn't change, only what you get redirected to.
+
+So I still think I can do it, but I'll have to use the Unsplash API instead, as I intented from start.
+
+---
+
 #### Day 73/100: 1:30 // Unsplash API + problems
 
 I succeeded in displaying a random wallpaper image each time pretty-new-tab is rendered, which was very cool. I tried researching how to have the API key local so I don't push it to github, but I didn't quite figure it out.

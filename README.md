@@ -5,6 +5,9 @@ Här skriver jag om min framgångar och motgångar i att lära mig webbutvecklin
 Here, I write of my successes and struggles in learning web development. I'm taking a course called The Complete Web Developer in 2019: Zero to Mastery from Udemy. The idea is that I'm going to code for 100 days in a row. We'll see how it goes. The first 39 days of the journal is in Swedish.
 
 ---
+---
+
+#### Day 84: 1:00 // isinfo continued
 
 ---
 

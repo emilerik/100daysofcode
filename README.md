@@ -8,6 +8,16 @@ Here, I write of my successes and struggles in learning web development. I'm tak
 
 ---
 
+#### Day 86: 1:00 // isinfo API
+
+Started building on the API for Isinfo today. I figured I can't do much with the website until I can have a user sign in, and a database to store the posts.
+
+However, I'm feeling a little bit lost. I have an idea of what I want it to look like when I'm finished, but it's difficult for me to see the steps to get there. I'm not sure at which end to start. Should I build a good looking, static website and then add the functionality after that, or should I start with the functionalities like signing in, adding posts and so on, and then focus on the front end?
+
+Damn, only two weeks to go on the #100DaysOfCode-challenge. Gonna feel weird (and pretty sweet) when I'm done. Of course, I'll continue with web dev, just maybe not every day.
+
+---
+
 #### Day 85: 1:00 // documentation
 
 Nothing super exciting today - I did documentation for the pretty dashboard app today, as per recommendation from my brother. After that, I continued a bit on isinfo, and checked out some cool ways in semantic UI to do dropdowns.

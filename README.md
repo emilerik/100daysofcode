@@ -8,6 +8,16 @@ Here, I write of my successes and struggles in learning web development. I'm tak
 
 ---
 
+#### Day 87: 1:00 // dropdowns
+
+I added dropdowns with signin and register forms to the isinfo app today.
+
+I decided to use semantic UI for design, as I really like the look of it. At first, I started adding it as classnames to my elements, but then realized there should be an easier way to integrate it with React... Turns out there is, called semantic-ui-react. There, you have finished components that can be used right away. It works surprisingly well, too.
+
+I think I'll start building the website by creating a server and a database, so that you can register and sign in users. After that, I'll build a way to post new reports, and after that, do a bunch of design.
+
+---
+
 #### Day 86: 1:00 // isinfo API
 
 Started building on the API for Isinfo today. I figured I can't do much with the website until I can have a user sign in, and a database to store the posts.

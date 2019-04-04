@@ -10,6 +10,10 @@ Here, I write of my successes and struggles in learning web development. I'm tak
 
 #### Day 88: 1:00 // api
 
+Kept working on the code, today started building on the server, and created a database with a users table.
+
+This weekend, I'm going away on a trip to Göteborg with the board att our program, but I'll just have to find some time to code in between mingling.
+
 ---
 
 #### Day 87: 1:00 // dropdowns

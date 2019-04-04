@@ -8,6 +8,10 @@ Here, I write of my successes and struggles in learning web development. I'm tak
 
 ---
 
+#### Day 88: 1:00 // api
+
+---
+
 #### Day 87: 1:00 // dropdowns
 
 I added dropdowns with signin and register forms to the isinfo app today.

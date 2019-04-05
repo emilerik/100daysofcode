@@ -8,6 +8,16 @@ Here, I write of my successes and struggles in learning web development. I'm tak
 
 ---
 
+#### Day 89: 1:00 // register
+
+Successfully added the register function today.
+
+So far, I've only built the back-end and not yet connected the front-end. I'm using Postman for testing. I had a bug that I really couldn't work out, but it turned out that it was that I tried registering a user that already existed in the database, even though I couldn't see it. Turned out I hadn't refreshed PSequel...
+
+The next step is to add the login, and then connect it to the front end.
+
+---
+
 #### Day 88: 1:00 // api
 
 Kept working on the code, today started building on the server, and created a database with a users table.

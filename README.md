@@ -8,6 +8,14 @@ Here, I write of my successes and struggles in learning web development. I'm tak
 
 ---
 
+#### Day 90: 1:10 // connecting front/backend
+
+Started the job of connecting the front end with the back end today.
+
+Created the event handlers for text input and onSubmitRegister. Didn't get it to work though, somehow it couldn't find the server... Another bug I have is that whenever you click a text input in the Register-dropdown, the dropdown disappears. Might move it out of the dropdown to test it before fixing the error.
+
+---
+
 #### Day 89: 1:00 // register
 
 Successfully added the register function today.

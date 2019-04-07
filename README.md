@@ -6,6 +6,19 @@ Here, I write of my successes and struggles in learning web development. I'm tak
 
 ---
 
+
+---
+
+#### Day 91: 1:10 // semantic UI dropdown?
+
+Okay, made some advancement today - I've now successfully connected the front end with the back end, where I can register a user via the app, and then sign in with the credentials.
+
+However, so long there is no session and no functions (such as posting) that require a user to be logged in, so that'll come later.
+
+One annoying bug is that the semantic UI dropdown (for sign in and register) loses focus whenever you click the input box, and I coulnd't really get it to work.
+
+Man, it's 9 days left of my 100 days, and I'm starting to feel like I could really use a break to reenergize and get some more inspiration. The last couple of days have been tough. Not many days left now, though :)
+
 ---
 
 #### Day 90: 1:10 // connecting front/backend

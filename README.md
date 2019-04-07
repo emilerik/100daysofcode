@@ -15,7 +15,7 @@ Okay, made some advancement today - I've now successfully connected the front en
 
 However, so long there is no session and no functions (such as posting) that require a user to be logged in, so that'll come later.
 
-One annoying bug is that the semantic UI dropdown (for sign in and register) loses focus whenever you click the input box, and I coulnd't really get it to work.
+One annoying bug is that the semantic UI dropdown (for sign in and register) loses focus whenever you click the input box, and I couldn't really get it to work.
 
 Man, it's 9 days left of my 100 days, and I'm starting to feel like I could really use a break to reenergize and get some more inspiration. The last couple of days have been tough. Not many days left now, though :)
 

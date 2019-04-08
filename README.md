@@ -6,6 +6,13 @@ Here, I write of my successes and struggles in learning web development. I'm tak
 
 ---
 
+---
+
+#### Day 92: 1:00 // posts db
+
+Started creating the posts table in sql today. I want to be able to connect the users with their posts, so I need to have a foreign key reference.
+
+It wasn't really covered at depth in the web dev course, so I started researching it today. Doing so, I realized I don't know much at all about sql, so I might take a few days to just practice doing it, using something like Codecademy.
 
 ---
 

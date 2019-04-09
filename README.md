@@ -8,6 +8,18 @@ Here, I write of my successes and struggles in learning web development. I'm tak
 
 ---
 
+#### Day 93: 1:00 // SQL bootcamp
+
+Just started a deep dive into SQL. Since I will be using it a lot in the isinfo app, I felt I didn't have quite the competence to just wing it, cuz I got stuck a lot.
+
+So I started taking the SQL course in codecademy. I'm a fan of the format since it's interactive and you get right into writing stuff.
+
+Learned about clauses, which are the commands of the SQL language. They include: CREATE TABLE, ALTER TABLE, SELECT, UPDATE, FROM, SET.
+
+The core of an SQL relational database is that it consists of tables, which order its categories into columns, and its data into rows.
+
+---
+
 #### Day 92: 1:00 // posts db
 
 Started creating the posts table in sql today. I want to be able to connect the users with their posts, so I need to have a foreign key reference.

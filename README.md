@@ -14,7 +14,7 @@ Just started a deep dive into SQL. Since I will be using it a lot in the isinfo 
 
 So I started taking the SQL course in codecademy. I'm a fan of the format since it's interactive and you get right into writing stuff.
 
-Learned about clauses, which are the commands of the SQL language. They include: CREATE TABLE, ALTER TABLE, SELECT, UPDATE, FROM, SET.
+Learned about clauses, which are the commands of the SQL language. They include: CREATE TABLE, ALTER TABLE, SELECT, UPDATE, FROM, SET. You can add constraints to the columns which limits what data you can add to them. Example is "id INTEGER PRIMARY KEY" och "email TEXT UNIQUE". The difference between PRIMARY KEY and UNIQUE is that you can only have one PRIMARY KEY but multiple UNIQUEs.
 
 The core of an SQL relational database is that it consists of tables, which order its categories into columns, and its data into rows.
 

@@ -8,6 +8,16 @@ Here, I write of my successes and struggles in learning web development. I'm tak
 
 ---
 
+#### Day 94: 2:00 // isinfo back with front end
+
+Got back to working on integrating back and front end on isinfo.
+
+Made a lot of progress, which I'm super happy about. I created the endpoints register, sign in and post. I also added the posts table to the database. I managed to connect them, so that you can now post data in a form on the website, to the database. Each post is connected via a foreign key to a registered user. So far, you can only post a short text, and I haven't yet implemented the things you'll actually post.
+
+The next step is to be able to get posts from the database and display them.
+
+---
+
 #### Day 93: 1:00 // SQL bootcamp
 
 Just started a deep dive into SQL. Since I will be using it a lot in the isinfo app, I felt I didn't have quite the competence to just wing it, cuz I got stuck a lot.

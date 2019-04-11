@@ -6,6 +6,15 @@ Here, I write of my successes and struggles in learning web development. I'm tak
 
 ---
 
+
+---
+
+#### Day 95: 2:00 // dropdowns and isSignedIn
+
+Added dropdowns for login and register, which I think works and looks great.
+
+I also added a state for signed in user, where signing in enables the post view. I'm excited to start working more on the post function now - adding the relevant options and dropdowns when posting, and making sure to render these from the database to the view. So far, it's still just static.
+
 ---
 
 #### Day 94: 2:00 // isinfo back with front end

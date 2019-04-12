@@ -9,6 +9,14 @@ Here, I write of my successes and struggles in learning web development. I'm tak
 
 ---
 
+#### Day 96: 1:30 // new post
+
+Worked on the NewPost component today. Only front end stuff, like adding the dropdowns for the different categories and a comment text area. Had some troubles getting the dropdowns to look like I wanted - the functionality works, but it doesn't look as pretty as the Semantic UI design that I thought I implemented.
+
+Thinking of maybe adding a "New Post" button which pops a modal or something - not sure yet though.
+
+---
+
 #### Day 95: 2:00 // dropdowns and isSignedIn
 
 Added dropdowns for login and register, which I think works and looks great.

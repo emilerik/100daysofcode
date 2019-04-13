@@ -5,7 +5,17 @@ Här skriver jag om min framgångar och motgångar i att lära mig webbutvecklin
 Here, I write of my successes and struggles in learning web development. I'm taking a course called The Complete Web Developer in 2019: Zero to Mastery from Udemy. The idea is that I'm going to code for 100 days in a row. We'll see how it goes. The first 39 days of the journal is in Swedish.
 
 ---
+---
 
+#### Day 97: 2:30 // get posts, routes, logout
+
+Played around with the backend today, which was a bunch of fun.
+
+I finally managed to display the posts from the database on the front end. It wasn't very difficult, but it was a get request from the server, which I hadn't done before (only post), so it took a while to figure out the syntax.
+
+After that, I added some routes, for different views. So far, it's basically only logged in / logged out, but I'll add some more soon. I also added a logout button which toggles the route.
+
+Thinking about what to do next - maybe make the post form look a little prettier.
 
 ---
 

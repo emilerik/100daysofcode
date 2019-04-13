@@ -17,6 +17,8 @@ After that, I added some routes, for different views. So far, it's basically onl
 
 Thinking about what to do next - maybe make the post form look a little prettier.
 
+By the way, here's the code: [github.com/emilerik/isinfo](https://github.com/emilerik/isinfo)
+
 ---
 
 #### Day 96: 1:30 // new post

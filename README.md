@@ -7,6 +7,20 @@ Here, I write of my successes and struggles in learning web development. I'm tak
 ---
 ---
 
+#### Day 98: 2:00 // toggle new post
+
+Today, I added a New Post button that toggles the Post form, which looks a lot better than having it there all the time. I also made it so that the current date gets sent along to the db with the form post.
+
+I struggled a while to get a modal going, that would toggle on the New Post click instead. However, it looked pretty ugly and covered only the left part of the viewport. Didn't manage to fix it. I was trying to use semantic UI:s own react component for it.
+
+Another problem I had was updating the table directly when submitting a post. As of right now, you have to refresh the page to see it. The reason is this: NewPost is a component which handles all submission to the database. The Posts components fetches the data from the db, and displays it. However, these aren't connected, so I struggled to find a clean way of re-rendering Posts when NewPost was updated. I guess I could add a state to App.js like "tableUpdated", or doing a force render of App when submit button is clicked, but it seems it was frowned upon by React to do it that way.
+
+Getting more and more comfortable with React. I like playing around with state to display (or hide) different elements depending on user interaction - for example, displaying an error message when entering incorrect values.
+
+I'm not sure what to do next - there are tweaks and things I can do, but I'm trying to decide how long I want to keep developing the website.
+
+---
+
 #### Day 97: 2:30 // get posts, routes, logout
 
 Played around with the backend today, which was a bunch of fun.

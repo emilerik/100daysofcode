@@ -19,6 +19,8 @@ Getting more and more comfortable with React. I like playing around with state t
 
 I'm not sure what to do next - there are tweaks and things I can do, but I'm trying to decide how long I want to keep developing the website.
 
+![Day 98](./screenshots/98.png?raw=true)
+
 ---
 
 #### Day 97: 2:30 // get posts, routes, logout
@@ -48,6 +50,8 @@ Thinking of maybe adding a "New Post" button which pops a modal or something - n
 Added dropdowns for login and register, which I think works and looks great.
 
 I also added a state for signed in user, where signing in enables the post view. I'm excited to start working more on the post function now - adding the relevant options and dropdowns when posting, and making sure to render these from the database to the view. So far, it's still just static.
+
+![Day 95](./screenshots/95.png?raw=true)
 
 ---
 

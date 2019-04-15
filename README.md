@@ -5,6 +5,42 @@ Här skriver jag om min framgångar och motgångar i att lära mig webbutvecklin
 Here, I write of my successes and struggles in learning web development. I'm taking a course called The Complete Web Developer in 2019: Zero to Mastery from Udemy. The idea is that I'm going to code for 100 days in a row. We'll see how it goes. The first 39 days of the journal is in Swedish.
 
 ---
+
+---
+
+#### Day 99: 2:00 // NewPost
+
+Cleaned up the NewPost component today. Realized that instead of doing
+```js
+<Form.Field>
+    <label>Betyg</label>
+    <select
+      name="location"
+      className="ui dropdown"
+      onChange={this.onChangeBetyg}
+    >
+      <option value="5">5</option>
+      <option value="4">4</option>
+      ...
+    </select>
+  </Form.Field>
+```
+
+I could shorten it a lot by using semantic's own Select component:
+```js
+<Form.Select label="Betyg" onChange={this.onChangeBetyg} options={betygOptions} />
+```
+and just adding the options at the start by mapping the numbers into an array like so:
+```js
+const betygOptions = ["1", "2", "3", "4", "5"].map(betyg => ({
+  text: betyg,
+  value: betyg
+}));
+```
+When using Semantic's own Select, the dropdown ended up looking a lot better as well. I did have some trouble trying to use `this.setState({plats: event.target.value})` for the onChange function, because it didn't get the value - apparently, the onChange received two objects, and the value could be retrieved from the second one via destructuring: `{ value }`.
+
+Man, I hope I don't forget to code tomorrow.
+
 ---
 
 #### Day 98: 2:00 // toggle new post

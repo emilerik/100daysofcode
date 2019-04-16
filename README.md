@@ -5,6 +5,17 @@ Här skriver jag om min framgångar och motgångar i att lära mig webbutvecklin
 Here, I write of my successes and struggles in learning web development. I'm taking a course called The Complete Web Developer in 2019: Zero to Mastery from Udemy. The idea is that I'm going to code for 100 days in a row. We'll see how it goes. The first 39 days of the journal is in Swedish.
 
 ---
+---
+
+#### Day 100: 1:15 // error handling, fin.
+
+Well folks, I did it. I completed 100 days of daily coding.
+
+I was at a café eating breakfast in Mexico, right around New Years, when I decided to buy the web dev course from Udemy on a discount. 32 hours of content, just waiting to be absorbed, learned and pondered on. I was excited to get going when I came home, but feared it would be another one of those 2-week-sprints, where you eventually get bored and quit. So on January 6, inspired by the community I joined as part of the course, I set up a challenge for myself. I was gonna code for 100 days in a row, with no exception. If that's not continuity, I don't know what is. Through a trip to Africa, through a weekend conference in another city, through hectic days of studying and days where I just didn't want to write a line of code, I perservered.
+
+It's funny, despite the fact that I've coded for so many days straight, and the fact that I knew basically nothing of web development when I started, I still _feel_ like kind of a beginner. In many ways, I still am a beginner, compared to all the skilled developers out there, but of course, I've come a very long way since that day I started. There aren't many things I can point to and say that I've become super skilled at, but I can definitely say I've become much more confident and feel like I've at least seen most things of importance, in web development.
+
+To be continued, later today...
 
 ---
 

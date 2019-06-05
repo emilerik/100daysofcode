@@ -15,7 +15,27 @@ I was at a café eating breakfast in Mexico, right around New Years, when I deci
 
 It's funny, despite the fact that I've coded for so many days straight, and the fact that I knew basically nothing of web development when I started, I still _feel_ like kind of a beginner. In many ways, I still am a beginner, compared to all the skilled developers out there, but of course, I've come a very long way since that day I started. There aren't many things I can point to and say that I've become super skilled at, but I can definitely say I've become much more confident and feel like I've at least seen most things of importance, in web development.
 
-To be continued, later today...
+A short summary of what I've learned or dabbled in, more or less in order of time spent on it:
+ * (How to search Stack Overflow for solutions and bug fixes)
+ * JavaScript (datatypes, control flow, functions, methods, loops...)
+ * HTML
+ * CSS (flexbox, grid, animations etc.)
+ * React
+ * Fetch, promises
+ * APIs 
+ * Node.js and NPM (building servers in express.js, for example)
+ * Git
+ * Redux
+ * Async functions
+ * DOM manipulation
+ * HTTP/HTTPS, JSON/XML, AJAX
+ * How the internet works
+
+...and a bunch of other stuff that you come in contact with when doing web development.
+
+My plan for the future is to keep challenging myself, to master the skills and nuances of web development, and to stay curious. I'm also excited to code some real applications and build bigger, more extensive projects and apps.
+
+'Til next time!
 
 ---
 
